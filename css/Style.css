@@ -1,0 +1,397 @@
+body {
+    background-image: url("../portfolio_images/photo_2026-11-04_11-49-10.jpg");
+    color: rgb(49, 3, 3);
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+    
+
+}
+
+
+.navbar {
+    background-color: rgb(26, 4, 4);
+    border-color: rgb(250, 250, 178);
+     display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    color: #fad7a3;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    text-decoration: none;
+
+
+}
+.links{
+    display:flex;
+    justify-content: flex-end;
+    margin-left: 680px;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    color: rgb(250, 250, 178);
+}
+
+.links ul a {
+    text-decoration: none;
+    color: rgb(250, 250, 178);
+}
+
+.links ul li:hover {
+    text-decoration: none;
+    background-color: #fad7a3;
+    color: #180d07;
+    font-weight: bold;
+}
+
+.links ul li a:hover {
+    color: #180d07;
+}
+
+
+.main .pic img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 80px;
+
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main .box1 {
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.main .button {
+    margin-left: 150px;
+}
+
+.main .button button {
+    padding: 20px 35px;
+    background-color: #4b2e20;
+    color: #fff0d5;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.main .button button:hover {
+    background-color: #fad7a3;
+    color: #4b2e20;
+    font-weight: bold;
+}
+
+.main .button a img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+.main .button a img :hover {
+    border-color: aqua;
+}
+
+.skills h1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.skills .skillcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.skills .skillcontainer .skillbox {
+    background-color: #fad7a3;
+    border-radius: 30px;
+    gap: 2rem;
+    padding: 3rem;
+    margin: 30px;
+}
+
+.skills .skillbox h1 {
+    font-style: oblique;
+    text-align: center;
+
+
+}
+
+.skills .skillbox img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.project h1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.project .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.project .box .pp_box {
+    background-color: #fad7a3;
+    border-radius: 30px;
+    gap: 2rem;
+    padding: 3rem;
+    margin: 30px;
+}
+
+.project .p_box {
+
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.myself .abt{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.myself h1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.myself h3 {
+    text-align: center;
+}
+
+.myself .abt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.myself .abt .para {
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 50px;
+    padding-left: 20px;
+    font-size: larger;
+
+}
+
+.myself .abt .imag img {
+    height: 450px;
+    width: 500px;
+    justify-content: center;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+.contact-form {
+    width: 500px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+.contact-form h1 {
+    text-align: center;
+    color: #4b2e20;
+    margin-bottom: 25px;
+    padding-top: 80px;
+}
+
+.form-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.contact-form input {
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #6b422e;
+    color: #fff0d5;
+    border: 1px solid #a98263;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 14px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background-color: #6b422e;
+    color: #fff0d5;
+    border: 1px solid #a98263;
+    border-radius: 5px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #f3dfbd;
+    opacity: 1;
+}
+
+.contact-form button {
+    padding: 20px 35px;
+    background-color: #4b2e20;
+    color: #fff0d5;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.contact-form button:hover {
+    background-color: #fad7a3;
+    color: #4b2e20;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4b2e20;
+    color: #fff0d5;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.togglebutton {
+    display: none;
+}
+
+@media(max-width:630px) {
+.homecontainer{
+    display: grid;
+    grid-template-columns: auto;
+    background-size: cover;
+}
+.aboutcontainer .myself .abt{
+    display: flex;
+    grid-template-columns: auto;
+    display: block;
+}
+
+    .navbar .links {
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .togglebutton {
+        display: flex;
+        flex-direction: column;
+        margin-left: 600px;
+        gap: 5px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .togglebutton span {
+        width: 25px;
+        height: 3px;
+        background: white;
+        border-radius: 5px;
+    }
+
+    .links {
+        display: none;
+        width: 100%;
+    }
+
+    .links.active {
+        display: block;
+    }
+
+    .links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skillcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .projectconatiner{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
